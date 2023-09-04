@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Bo2h+j9VYtDQXlq+EWWmr5qMWjZwebUevpz9hXfCruaYa9pWSaP56Mglj+hivcs/6mDkLQHS9u6G3KU9qOs/0w==",
+  "dgSpecHash": "jVRqrOgYT68JyBn39QdXyUUUxvMvx/e/ZRZgtGCgSrjUg1PGaq2OuXhDbF2arwH/N8kmutUR0HgBaDJOJ9dCDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\NewAPI\\Back\\ProEventos.API\\ProEventos.API.csproj",
+  "projectFilePath": "C:\\Users\\ju-sh\\OneDrive\\Área de Trabalho\\NewAPI\\ProEventos\\Back\\ProEventos.API\\ProEventos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ju-sh\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\ju-sh\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
