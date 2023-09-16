@@ -47,7 +47,7 @@ namespace ProEventos.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Development 1°"));
             }
-
+//kfjkfoai290813-91
             app.UseHttpsRedirection();
 
             app.UseRouting();
