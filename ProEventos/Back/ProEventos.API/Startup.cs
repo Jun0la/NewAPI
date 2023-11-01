@@ -29,14 +29,19 @@ namespace ProEventos.API
 
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddDbContext<DataContext>(context => context.UseSqlite(Configuration.GetConnectionString("Default")));
             //
+
             services.AddControllers();
+
             services.AddCors();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Swagger", Version = "v1" });
             });
+
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -45,9 +50,9 @@ namespace ProEventos.API
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Development 1°"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Swagger"));
             }
-//kfjkfoai290813-91
+
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -56,10 +61,7 @@ namespace ProEventos.API
 
             app.UseCors(cors => cors.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin());
 
-
-            app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllers();
+            app.UseEndpoints(endpoints =>{endpoints.MapControllers();
             });
         }
     }
