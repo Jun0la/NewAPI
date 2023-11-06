@@ -37,10 +37,7 @@ namespace ProEventos.API
 
             services.AddCors();
 
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Swagger", Version = "v1" });
-            });
+            services.AddSwaggerGen(c => {c.SwaggerDoc("v1", new OpenApiInfo { Title = "Swagger", Version = "v1" }); });
 
         }
 
