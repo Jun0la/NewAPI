@@ -12,7 +12,7 @@ export class EventoComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
 
-  ngOnInit() {this.GetEventos();}
+  ngOnInit(): void {this.GetEventos();}
 
   public GetEventos() : void { this.http.get('https://localhost:5001/api/eventos').subscribe(
     response => this.eventos = response,
