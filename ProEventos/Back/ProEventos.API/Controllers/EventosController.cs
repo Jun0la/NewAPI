@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using ProEventos.Persistence;
 using ProEventos.Domain;
+using ProEventos.Persistence.Contextos;
+
 
 namespace ProEventos.API.Controllers
 {
@@ -34,7 +36,7 @@ namespace ProEventos.API.Controllers
         [HttpGet("{id}")]
         public Evento GetById(int id)
         {
-          return _context.Eventos.FirstOrDefault(evento => evento.EventoId == id);
+          return _context.Eventos.FirstOrDefault(evento => evento.Id == id);
         }
 
 

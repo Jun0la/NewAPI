@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using ProEventos.Domain;
+using ProEventos.Persistence;
 using System;
-using System.Collections.Generic;
 
 
 namespace ProEventos.Persistence.Contextos
