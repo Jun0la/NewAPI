@@ -137,3 +137,9 @@ C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.API\obj
 C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.API\obj\Debug\net5.0\ref\ProEventos.API.dll
 C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.API\obj\Debug\net5.0\ProEventos.API.pdb
 C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.API\obj\Debug\net5.0\ProEventos.API.genruntimeconfig.cache
+C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.Api\bin\Debug\net5.0\ProEventos.Application.dll
+C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.Api\bin\Debug\net5.0\ProEventos.Domain.dll
+C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.Api\bin\Debug\net5.0\ProEventos.Persistence.dll
+C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.Api\bin\Debug\net5.0\ProEventos.Application.pdb
+C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.Api\bin\Debug\net5.0\ProEventos.Domain.pdb
+C:\Users\ju-sh\OneDrive\Área de Trabalho\API\ProEventos\Back\ProEventos.Api\bin\Debug\net5.0\ProEventos.Persistence.pdb
